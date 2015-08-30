@@ -2,14 +2,16 @@ These are some quick and dirty tools to help me study for SFSU's CS256
 
 #binConvertTest.py
 
+This is a simple script for practicing the following:
+
 16 bit binary conversion test
 
-Convert to hex
+Convert binary to hex
 
-Twos Complement
+Two's Complement to decimal
 
-Do Bin Add
+Add Binary Numbers
 
-8 bit binary conversion test
+8 bit binary conversion to decimal
 
 
