@@ -137,7 +137,14 @@ random.seed()
 print "Binary Tester\n"
 input=""
 while (input==""):
-    input = raw_input("1. 16 bit binary conversion test\n2. Convert to hex\n3. Twos Complement\n4. Do Bin Add\n5. Do Hex add\n6. 8 bit binary conversion test\n7. exit\n? ")
+    input = raw_input("""
+1. 16 bit binary conversion to unsigned test.
+2. Convert binary to hex.
+3. Binary to Two's Complement.
+4. Add two binary numbers.
+5. Hex add (Not Yet Implemented)
+6. 8 bit binary conversion test
+7. exit? """)
     if (input=="1"):
         do_bit_test(16)
     elif (input=="2"):
